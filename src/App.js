@@ -39,17 +39,17 @@ function App() {
             <th>Gender</th>
             <th>Age</th>
           </tr>
-          <tr>
+          <tr id="fir">
             <td>Peerawas muanfoo 620610803</td>
             <td>male</td>
             <td>19</td>
           </tr>
-          <tr>
+          <tr id="sec">
             <td>Bob</td>
             <td>male</td>
             <td>50</td>
           </tr>
-          <tr>
+          <tr id="last">
             <td>Alice</td>
             <td>male</td>
             <td>20</td>
