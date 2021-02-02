@@ -26,7 +26,7 @@ function App() {
         <h3 class="title is-3">ID Counter</h3>
         <p>{count}</p>
         <button onClick={() => setCount(count - 1)}>-</button>
-        <button onClick={() => setCount(62061803)}>reset</button>
+        <button onClick={() => setCount(620610803)}>reset</button>
         <button onClick={() => setCount(count + 1)}>+</button>
       </div>
 
@@ -51,7 +51,7 @@ function App() {
           </tr>
           <tr>
             <td>Alice</td>
-            <td>female</td>
+            <td>male</td>
             <td>20</td>
           </tr>
         </tbody>
