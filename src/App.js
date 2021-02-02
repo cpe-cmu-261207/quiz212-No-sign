@@ -1,5 +1,13 @@
+import React, { useState } from "react";
+
 function App() {
+  const [count, setCount] = useState(62061803);
   const persons = [
+    {
+      name: "Peerawas muanfoo 620610803",
+      gender: "male",
+      age: "19"
+    },
     {
       name: "Bob",
       gender: "male",
@@ -13,13 +21,13 @@ function App() {
   ];
   return (
     <div class="ml-2">
-      {/* Code me please! */}
+      {}
       <div class="mb-4">
         <h3 class="title is-3">ID Counter</h3>
-        <p>YOUR ID HERE</p>
-        <button>-</button>
-        <button>reset</button>
-        <button>+</button>
+        <p>{count}</p>
+        <button onClick={() => setCount(count - 1)}>-</button>
+        <button onClick={() => setCount(62061803)}>reset</button>
+        <button onClick={() => setCount(count + 1)}>+</button>
       </div>
 
       {/* Convert me to a component! */}
@@ -32,9 +40,19 @@ function App() {
             <th>Age</th>
           </tr>
           <tr>
+            <td>Peerawas muanfoo 620610803</td>
+            <td>male</td>
+            <td>19</td>
+          </tr>
+          <tr>
             <td>Bob</td>
             <td>male</td>
             <td>50</td>
+          </tr>
+          <tr>
+            <td>Alice</td>
+            <td>female</td>
+            <td>20</td>
           </tr>
         </tbody>
       </table>
